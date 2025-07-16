@@ -3,7 +3,7 @@
 Target Shooter is a 3D web game where you have to survive as long as you and shoot targets to achieve the highest score while being as accurate as possible.
 
 <p align="center">
-	<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a4033bfb895e33fbcf696c489d5e09046ab4c615_preview.gif" alt="Demo">
+	<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/54553f23fef365e909c7d927c39ba01b284c3606_preview.gif" alt="Demo">
 	<br>
 	<a href="">Live demo</a>
 	<br>
