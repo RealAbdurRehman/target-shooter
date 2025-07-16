@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A 3D web game where you shoot targets to achieve the highest score while being as accurate as possible."
+    />
+    <title>Target Shooter</title>
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="loading-hider"></div>
+
+    <div id="loading-screen">
+      <div class="loading-container">
+        <div class="title-container">
+          <div class="loading-title">TARGET SHOOTER</div>
+          <div class="title-underline"></div>
+        </div>
+
+        <div id="currently-loading">Currently Loading:</div>
+
+        <div class="loading-progress">
+          <div id="progress-bar"></div>
+        </div>
+
+        <div class="loading-text">
+          Loading Assets<span class="loading-dots"></span>
+        </div>
+
+        <div id="loading-percentage">0%</div>
+
+        <div class="loading-tips">
+          <div class="tip-container">
+            <p id="tip-text"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="loading-note">- This might take a while!</div>
+    </div>
+
+    <div id="pause-screen">
+      <div class="pause-overlay"></div>
+
+      <div class="pause-content">
+        <div class="pause-header">
+          <div class="pause-title">
+            <h2>GAME<span>PAUSED</span></h2>
+            <div class="logo-underline"></div>
+          </div>
+        </div>
+
+        <div class="pause-info">
+          <div class="control-hint">
+            <div class="key-container">
+              <i class="fas fa-keyboard"></i>
+              <span>Press <kbd>P</kbd> to Resume</span>
+            </div>
+          </div>
+
+          <div class="stats-preview">
+            <div class="stat">
+              <span class="stat-label">ACCURACY</span>
+              <span class="stat-value" id="pause-accuracy"></span>
+            </div>
+
+            <div class="stat">
+              <span class="stat-label">SCORE</span>
+              <span class="stat-value" id="pause-score"></span>
+            </div>
+          </div>
+        </div>
+
+        <button id="restart-pause" class="restart">
+          <span class="btn-text">RESTART</span>
+          <div class="btn-accent"></div>
+        </button>
+      </div>
+    </div>
+
+    <div id="death-screen">
+      <div class="death-content">
+        <div class="game-over">
+          <h2>GAME<span>OVER</span></h2>
+        </div>
+
+        <div class="death-stats">
+          <div class="stat">
+            <span class="stat-label">ACCURACY</span>
+            <span class="stat-value" id="final-accuracy"></span>
+          </div>
+
+          <div class="stat">
+            <span class="stat-label">FINAL SCORE</span>
+            <span class="stat-value" id="final-score"></span>
+            <span class="bonus-text">(+ added bonus)</span>
+          </div>
+        </div>
+
+        <div class="rank-display">
+          <div class="rank-label">RANK</div>
+          <div class="rank-value"></div>
+        </div>
+
+        <div class="message-container">
+          <p class="death-message">Better luck next time!</p>
+        </div>
+
+        <button id="restart-death" class="restart">
+          <span class="btn-text">RETRY</span>
+          <div class="btn-accent"></div>
+        </button>
+      </div>
+    </div>
+
+    <div id="difficulty-notification" class="difficulty-notification">
+      <div class="notification-content">
+        <div class="notification-text">
+          <div class="notification-title">Difficulty Increased</div>
+          <div class="notification-subtitle">
+            Level <span id="difficulty-level">1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ammo-display hud">
+      <span id="ammo-current">10</span><span class="ammo-divider">/</span
+      ><span id="ammo-remaining">30</span>
+    </div>
+
+    <div class="health-display hud">
+      <svg class="health-circle" width="100" height="100">
+        <circle class="fg" cx="50" cy="50" r="30" />
+      </svg>
+      <div class="health-text" id="health">100</div>
+    </div>
+
+    <div class="score-display hud"><span id="score">0</span></div>
+
+    <div class="effects-container"></div>
+
+    <div id="health-effect">
+      <div class="health-effect">+</div>
+    </div>
+
+    <div id="ammo-effect">
+      <div class="ammo-effect">
+        <div class="bullet"></div>
+        <div class="bullet"></div>
+        <div class="bullet"></div>
+      </div>
+    </div>
+
+    <div id="reload-container"></div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
