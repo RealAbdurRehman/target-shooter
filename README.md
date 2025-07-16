@@ -3,7 +3,7 @@
 Target Shooter is a 3D web game where you have to survive as long as you and shoot targets to achieve the highest score while being as accurate as possible.
 
 <p align="center">
-	<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/54553f23fef365e909c7d927c39ba01b284c3606_preview.gif" alt="Demo">
+	<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/40e306a1778cd84e6745d3fcdd9924e7e97cf45a_screenshot_2025-07-16_at_4.06.50___pm.png" alt="Demo">
 	<br>
 	<a href="">Live demo</a>
 	<br>
@@ -29,7 +29,6 @@ Your goal is to shoot as many targets as possible and survive for as long as you
 
 ## Preview
 
-![Preview 1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/40e306a1778cd84e6745d3fcdd9924e7e97cf45a_screenshot_2025-07-16_at_4.06.50___pm.png)
-![Preview 2](https://hc-cdn.hel1.your-objectstorage.com/s/v3/71a5dac311f97ff17ff1354bbe0dda044f9ac4ef_screenshot_2025-07-16_at_4.06.57___pm.png)
-![Preview 3](https://hc-cdn.hel1.your-objectstorage.com/s/v3/be2267853322a1ad19f9b022ae86202c5e7b361c_screenshot_2025-07-16_at_4.07.17___pm.png)
-![Preview 4](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e1dcf102ceadbbc2dda47ab92310ae29ce4b4316_screenshot_2025-07-16_at_4.07.27___pm.png)
+![Preview 1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/71a5dac311f97ff17ff1354bbe0dda044f9ac4ef_screenshot_2025-07-16_at_4.06.57___pm.png)
+![Preview 2](https://hc-cdn.hel1.your-objectstorage.com/s/v3/be2267853322a1ad19f9b022ae86202c5e7b361c_screenshot_2025-07-16_at_4.07.17___pm.png)
+![Preview 3](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e1dcf102ceadbbc2dda47ab92310ae29ce4b4316_screenshot_2025-07-16_at_4.07.27___pm.png)
