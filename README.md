@@ -5,7 +5,7 @@ Target Shooter is a 3D web game where you have to survive as long as you and sho
 <p align="center">
 	<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/40e306a1778cd84e6745d3fcdd9924e7e97cf45a_screenshot_2025-07-16_at_4.06.50___pm.png" alt="Demo">
 	<br>
-	<a href="">Live demo</a>
+	<a href="https://target-shooter.netlify.app/">Live demo</a>
 	<br>
 </p>
 
